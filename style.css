@@ -1,0 +1,211 @@
+
+
+body{
+    background-color: rgb(224, 24, 24);
+    color: #fff;
+    text-align: center;
+}
+.heading{
+  
+  text-transform: uppercase;
+        font-size: 44px;
+        text-align: center;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+    cursor: pointer;
+margin-bottom: 0;
+
+}
+.heading:hover{
+    color: #db4f3d;
+}
+.sub-head{
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+   line-height: 1.5; 
+    margin: 4px 0 0 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu{
+    margin-left: 305px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#home{
+    border-top: black;
+}
+#home:hover{
+    border-top: #db4f3d;
+
+}
+#collection{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    
+}
+#collection:hover{
+    color: #db4f3d;
+
+}
+.opt{
+    list-style-type: none;
+    float:left;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.opt:hover{
+    color: #db4f3d;
+}
+.img1{
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+}
+.para{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    padding-top: 90px;
+}
+  .para1{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    padding-top: 20px;
+  }
+  .img2{
+    width: 100%;
+    padding-top: 40px;
+  }
+  /* .fb{
+      height: 30px;
+      width: 30px;
+      float: left;
+      padding: 70px;
+  }
+  .insta{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 70px;
+  }
+  .linkedin{
+    height: 90px;
+    width: 30px;
+    float: left;
+    padding: 70px;
+  }
+  .youtube{
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding: 70px;
+    margin-top: 0;
+  } */
+/*   
+  .last{
+    margin-top: 300px;
+    margin-bottom: 40px;
+  }
+
+  .last1{
+    color: #fff;
+    text-decoration-line: none;
+  }
+  .last1:hover{
+    color: #db4f3d;
+    text-decoration: underline;
+  }
+  .sel{
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .sel:hover{
+    color: #db4f3d;
+
+}
+.nav{
+  color: #fff;
+  text-decoration: none;
+}
+.nav:hover{
+  color: #db4f3d;
+} */
+.anim-elements{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+/* .anim-elements .anim-element{
+  position: absolute;
+  font-size: 30px;
+}
+.anim-elements .anim-element:nth-child(1){
+  top: 12%;
+  left: 15%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+.anim-elements .anim-element:nth-child(2){
+  top: 20%;
+  left: 255%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+.anim-elements .anim-element:nth-child(3){
+  top: 18%;
+  left: 20%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+.anim-elements .anim-element:nth-child(4){
+  top: 15%;
+  left: 16%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+.anim-elements .anim-element:nth-child(5){
+  top: 10%;
+  left: 5%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+.anim-elements .anim-element:nth-child(6){
+  top: 25%;
+  left: 19%;
+  color: #fff;
+  animation: aniOne 30s infinite linear alternate;
+}
+@keyframes aniOne{
+  0% {transform:translate(0,0) rotate(0);}
+  40%{transform:translate(141px,72px) rotate(75deg);}
+  80%{transform:translate(-48px,72px) rotate(145deg);}
+  100%{transform:translate(0,0) rotate(0);}
+} */
+ .fixed-header #main-header{
+  background-color: aqua;
+  backdrop-filter: blur(10px);
+
+ }
